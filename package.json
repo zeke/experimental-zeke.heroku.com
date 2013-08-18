@@ -1,0 +1,27 @@
+{
+  "name": "zeke.heroku.com",
+  "version": "0.0.0",
+  "description": "minimalist markdown mumblings",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeke/zeke.heroku.com"
+  },
+  "keywords": [
+    "markdown",
+    "microblog",
+    "blog"
+  ],
+  "author": "Zeke Sikelianos <zeke@sikelianos.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zeke/zeke.heroku.com/issues"
+  },
+  "dependencies": {
+    "hyperstream": "~0.3.1",
+    "markdown-directory": "~0.1.0"
+  }
+}
