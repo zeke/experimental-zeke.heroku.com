@@ -3,6 +3,7 @@ var fs = require('fs')
 var _ = require('lodash')
 var hyperstream = require('hyperstream')
 var mm = require('marky-mark');
+var hljs = require('highlight.js')
 
 // Gather and parse markdown files and their YAML frontmatter
 var posts = mm.parseDirectorySync(__dirname + "/posts");
